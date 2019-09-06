@@ -6,5 +6,6 @@ data.each do |color_gender_lives, values|
     names.each do |name| 
       if organized_hash[name] = nil 
         organized_hash[name] = {}
+      end 
 
 end
