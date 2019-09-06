@@ -6,7 +6,7 @@ data.each do |color_gender_lives, attribute|
     names.each do |name| 
       if organized_hash[name] = nil 
         organized_hash[name] = {}
-        organized_hash[name][color_gender_lives] = {}
+       
       end 
     end 
   end 
